@@ -1,4 +1,6 @@
 {
   "presets": ["react"],
-  "plugins": ["syntax-dynamic-import"]
+  "plugins": [
+    ["import", { "libraryName": "antd-mobile", "style":true }] 
+  ]
 }
